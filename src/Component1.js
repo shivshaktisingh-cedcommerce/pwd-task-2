@@ -15,7 +15,14 @@ export default function Component1() {
 
         </div>
         <div id="just_bar"></div>
-        <div id="image_div_id"><img src="../1.jpg" alt="" id="image_id"/></div>
+        <div class="popover__wrapper">
+        <a href="#"></a>
+        <div id="image_div_id"><img src="../1.jpg" alt="" id="image_id" className="popover__title"/>
+        <div class="popover__content">
+        <p class="popover__message">Please click on button to Recieve Email Updates</p>
+        </div>
+    
+  </div></div>
         <p id="the_future">The Future Now</p>
         <p id="world_fastest">The World's <br/>Fastest Blockchain</p>
         <button id="receive_btn">Recieve Email Updates</button>
